@@ -1,0 +1,48 @@
+.menuClass{
+    position: absolute;
+    top: 3%;
+    left: 5%;
+}
+li{
+    list-style: none;
+    margin-bottom: 5px;
+}
+
+input{
+    border-radius: 5px;
+    width: 300px;
+}
+.form-control{
+    position: relative;
+    
+    width: 400px;
+    height: 70px;
+    /*border-radius: 10px;
+    padding: 5px 5px 5px 5px;*/
+    margin: 5px 2px 5px 2px;
+    border-right: none;
+    border-left: none;
+    border-bottom: none;
+    border-top: none;
+}
+
+.form-group{
+    position: absolute ;
+    top: 5%;
+    left: 40%;
+    
+    /*border: 1px solid black;*/
+    border-radius: 10px;
+    width: 50%;
+    height: 300px;
+    
+}
+
+.myClass{
+    margin: 5px 2px 5px 2px; 
+    padding: 5px 2px 5px 2px;
+}
+
+.description{
+    padding: 5px 2px 5px 2px;
+}

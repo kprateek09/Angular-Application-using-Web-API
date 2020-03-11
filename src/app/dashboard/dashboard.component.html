@@ -1,0 +1,33 @@
+<h3 style="position: relative; left: 40%; top: 20px;">Dashboard!</h3>
+
+
+<!-- Editable table -->
+<div>
+    <table border="1">
+        <tr>
+            <th class="text-center">User ID</th>
+            <th class="text-center">First Name</th>
+            <th class="text-center">Last Name</th>
+            <th class="text-center">Phone</th>
+            <th class="text-center">Email</th>
+            <th class="text-center">Remove</th>
+            <th class="text-center">Update</th>
+        </tr>
+        <tr *ngFor="let user of users; let i = index">
+            <td>{{user.userId}}</td>
+            <td>{{user.firstName}}</td>
+            <td>{{user.lastName}}</td>
+            <td>{{user.phone}}</td>
+            <td>{{user.email}}</td>
+            <td><button type="button" (click)="remove(user.userId)">Remove</button></td>
+            <td>
+                <button *ngIf="enableEdit && enableEditIndex == i" (click)="enableEdit=false" ng-click="cancel()">Cancel</button>
+                <button *ngIf="enableEdit && enableEditIndex == i" id="saveBtn" (click)="update(user)" type="submit">Update</button>
+                <button type="button" *ngIf="!enableEdit" (click)="enableEditMethod($event, i)">Edit</button>
+            </td>
+        </tr>
+    </table>
+</div>
+<!-- Editable table -->
+
+<!-- <nv-editable-table [table-headers]="tableHeaders" [table-rows]="tableRows"></nv-editable-table> -->

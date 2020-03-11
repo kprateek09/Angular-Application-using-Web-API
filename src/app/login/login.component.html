@@ -1,0 +1,25 @@
+<div class="menuClass">
+    <ul>
+        <li><a routerLink="/">Login</a></li>
+        <li><a routerLink="/register">Register</a></li>
+    </ul>
+</div>
+
+<div class="form-group">
+    <h3>Login Form</h3>
+    <form [formGroup]="loginform" (ngSubmit)="saveData()">
+        <div class="form-control">
+            <div class="description">User ID</div>
+            <input type="text" style="width: 200px;" name="UserId" id="UserId" formControlName="UserId">
+        </div>
+
+        <div class="form-control">
+            <div class="description">Password</div>
+            <input type="password" style="width: 200px;" name="Password" id="Password" formControlName="Password">
+        </div>
+        <div class="form-control">
+            <input class="myClass" style="width: 100px;" type="submit">
+        </div>
+    </form>
+
+</div>

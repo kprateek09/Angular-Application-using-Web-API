@@ -1,0 +1,24 @@
+.headerTable{
+    border-bottom: none;
+}
+
+
+.idClass{
+    width: 70px;
+    text-align: center;
+}
+
+.nameClass{
+    width: 200px;
+}
+table{
+    margin-left: 200px;
+    position: relative;
+    top:50px;
+    left:5%
+}
+
+td{
+    border-collapse: collapse;
+    padding: 10px;
+}
