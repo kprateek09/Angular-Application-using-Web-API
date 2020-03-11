@@ -8156,11 +8156,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Visual Studio 2019 Files\\DatabaseFirstWebApi\\DatabaseFirstWebApi\\DatabaseFirstWebApi.csproj",
+      "projectUniqueName": "D:\\githubFiles\\DatabaseFirstWebApi\\DatabaseFirstWebApi\\DatabaseFirstWebApi.csproj",
       "projectName": "DatabaseFirstWebApi",
-      "projectPath": "D:\\Visual Studio 2019 Files\\DatabaseFirstWebApi\\DatabaseFirstWebApi\\DatabaseFirstWebApi.csproj",
+      "projectPath": "D:\\githubFiles\\DatabaseFirstWebApi\\DatabaseFirstWebApi\\DatabaseFirstWebApi.csproj",
       "packagesPath": "C:\\Users\\52131214\\.nuget\\packages\\",
-      "outputPath": "D:\\Visual Studio 2019 Files\\DatabaseFirstWebApi\\DatabaseFirstWebApi\\obj\\",
+      "outputPath": "D:\\githubFiles\\DatabaseFirstWebApi\\DatabaseFirstWebApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
