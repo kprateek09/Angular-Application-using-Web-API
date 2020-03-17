@@ -2,26 +2,6 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-*.sqlite
-*.cs
-*.cache
-/DatabaseFirstWebApi/obj/DatabaseFirstWebApi.csproj.nuget.dgspec.json
-/DatabaseFirstWebApi/obj/DatabaseFirstWebApi.csproj.nuget.g.props
-/DatabaseFirstWebApi/obj/DatabaseFirstWebApi.csproj.nuget.g.targets
-/DatabaseFirstWebApi/obj/project.assets.json
-/DatabaseFirstWebApi/obj/Debug/netcoreapp3.0/project.razor.json
-/.vs/VSWorkspaceState.json
-/.vs/githubFiles/v16/.suo
-/.vs/githubFiles/config/applicationhost.config
-/DatabaseFirstWebApi/.vs/DatabaseFirstWebApi/DesignTimeBuild/.dtbcache
-/DatabaseFirstWebApi/.vs/DatabaseFirstWebApi/v16/Server/sqlite3/db.lock
-/DatabaseFirstWebApi/.vs/DatabaseFirstWebApi/v16/Server/sqlite3/storage.ide
-/DatabaseFirstWebApi/.vs/DatabaseFirstWebApi/v16/Server/sqlite3/storage.ide-shm
-/DatabaseFirstWebApi/.vs/DatabaseFirstWebApi/v16/Server/sqlite3/storage.ide-wal
-/DatabaseFirstWebApi/.vs/DatabaseFirstWebApi/v16/.suo
-/DatabaseFirstWebApi/DatabaseFirstWebApi/bin/Debug/netcoreapp3.0/cs
-/DatabaseFirstWebApi/DatabaseFirstWebApi/bin/Debug/netcoreapp3.0/de
-/DatabaseFirstWebApi/DatabaseFirstWebApi/bin/Debug/netcoreapp3.0
-/DatabaseFirstWebApi/DatabaseFirstWebApi/obj/Debug/netcoreapp3.0/staticwebassets
-/DatabaseFirstWebApi/DatabaseFirstWebApi/obj/Debug/netcoreapp3.0
-/DatabaseFirstWebApi/DatabaseFirstWebApi/obj
+/DatabaseFirstWebApi/DatabaseFirstWebApi
+/DatabaseFirstWebApi/.vs/DatabaseFirstWebApi/DesignTimeBuild
+/DatabaseFirstWebApi/.vs/DatabaseFirstWebApi/v16/Server/sqlite3
